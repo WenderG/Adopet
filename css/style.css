@@ -4,21 +4,6 @@
     --cinza-claro: #E5E5E5;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
-}
-
-.boasvindas {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-.cabecalho {
-    background: rgb(12, 222, 103);
-}
-
-.principal {
-    background: var(--azul);
-}
-
-.rodape {
-    background: #034c09;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
 }

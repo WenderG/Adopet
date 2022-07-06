@@ -1,0 +1,20 @@
+.cabecalho {
+    background: var(--verde-agua);
+}
+
+.principal {
+    background: var(--azul);
+    font-family: var(--fonte-principal);
+    font-size: 400;
+    min-height: 100%;
+    height: 100%;
+}
+
+.logo {
+    padding-left: 5vh;
+    
+}
+
+.rodape {
+    background: var(--verde-agua);
+}
