@@ -1,0 +1,27 @@
+@import url(./css/index.css);
+
+:root {
+    --azul:#3772FF;
+    --branco: #ffffff;
+    --cinza-claro: #E5E5E5;
+    --cinza-escuro: #FF9D9E;
+    --verde-agua: #36D6AD;
+    --vermelho-claro: #FC7071;
+    --salmao: #FF9D9E;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+
+}
+
+.body {
+    height: 100vh;
+    background-color: var(--azul);
+    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 2.svg") no-repeat right;
+}
+
+.principal {
+    
+}
