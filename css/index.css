@@ -4,9 +4,17 @@ body {
     background-repeat: no-repeat;
 }
 
+.container {
+    padding: 3rem 0 2rem 2rem;
+}
+
+.mensagens {
+    padding-left: 2rem;
+}
+
 .logoprincipal {
     position: relative;
-    padding: 0 0 2.5rem 25rem;
+    padding: 2rem 0 2.5rem 25rem;
 }
 
 h1 {
@@ -21,6 +29,14 @@ h1 {
     font-family: var(--fonte-principal);
     position: relative;
     text-align: center;
+}
+
+.ilustracao1 {
+    padding: 2.5rem 25rem 0 25rem;
+}
+
+footer {
+    background-color: var(--verde-agua);
 }
 
 .rodape {
