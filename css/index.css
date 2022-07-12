@@ -1,0 +1,32 @@
+body {
+    background-color: var(--azul);
+    background-image: url(../img/Forma\ 1.svg);
+    background-repeat: no-repeat;
+}
+
+.logoprincipal {
+    position: relative;
+    padding: 0 0 2.5rem 25rem;
+}
+
+h1 {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    position: relative;
+    text-align: center;
+}
+
+.principal {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    position: relative;
+    text-align: center;
+}
+
+.rodape {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    position: relative;
+    text-align: center;
+}
+
