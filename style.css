@@ -12,14 +12,14 @@
     --fonte-secundaria: 'IBM Plex Sans', sans-serif;
 }
 
-body {
-
+html {
+    background: var(--azul);
 }
 
 .body {
-    height: 100vh;
     background-color: var(--azul);
     background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 2.svg") no-repeat right;
+    height: 100vh;
 }
 
 .principal {
