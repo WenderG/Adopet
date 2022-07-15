@@ -9,7 +9,7 @@
     --vermelho-claro: #FC7071;
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
-    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+    --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
 }
 
 html {
@@ -20,4 +20,15 @@ html {
     background-color: var(--azul);
     background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 2.svg") no-repeat right;
     height: 100vh;
+}
+
+.botao {
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
 }

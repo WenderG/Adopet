@@ -1,0 +1,25 @@
+.logoprincipal {
+    padding: 5rem 2.5rem 2.5rem 6rem;
+}
+
+.principal {
+    align-items: center;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 2em 5em 5em 5em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-boas-vindas);
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.ilustracao1 {
+    padding: 1rem 2.5rem 2.5rem 3rem;
+}
