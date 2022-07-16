@@ -8,6 +8,7 @@
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
+    /* --preto-degrade: linear-gradient(to right, #000000 0px, transparent 10em, transparent 10em); */
 }
 
 .body {
@@ -23,25 +24,43 @@
     padding: 2.5em 0 2em 1em;
 }
 
+
 .botao {
+    /* estilo do botão */
+    background-color: var(--vermelho-claro);
     border: 1px solid var(--vermelho-claro);
     border-radius: 6px;
     box-sizing: border-box;
-    background-color: var(--vermelho-claro);
-    color: var(--branco);
+    /* box-shadow: 10px 5px 5px var(--preto-degrade); */
     display: flex;
+
+    /* texto do botão */
+    color: var(--branco);
     font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 11px 0 11px 7px;
     text-decoration: none;
+
+    /* tamanho do botão */
+    height: 40px;
+    max-width: 250px;
+    width: 180px;
 }
 
 footer {
     background-color: var(--verde-agua);
-    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape {
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    padding: 2em 4em 2em 4em;
+    padding: 2rem 0 2rem 0.5rem;
     text-align: center;
 }

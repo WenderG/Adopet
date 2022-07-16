@@ -2,18 +2,22 @@ html {
     background: var(--azul);
 }
 
-.logoprincipal {
-    padding: 5rem 2.5rem 2rem 8rem;
+.container {
+    text-align: center;
 }
 
-.principal {
+.logoprincipal {
+    padding: 5rem 0rem 2rem 2rem;
+}
+
+.conteudo-principal {
     align-items: center;
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    padding: 2em 5em 1em 7em;
+    padding: 1em 4em 2em 5.8em;
     text-align: center;
 }
 
@@ -26,30 +30,14 @@ h1 {
     padding-left: 2rem;
 }
 
-.botoes {
-    margin: 1rem 2.5rem 0 6.5rem;
+.alinhamento {
+    padding: 2rem 0 0 1.5rem;
 }
 
-.login__botao {
-    font-size: 16px;
-    font-weight: 600px;
+.botao__login {
     margin-bottom: 1rem;
-    max-width: 230px;
-    padding: 1rem 2rem ;
-    text-align: center;
-    width: 100%;
 }
-
-.cadastro__botao {
-    font-size: 16px;
-    font-weight: 600px;
-    max-width: 230px;
-    padding: 1rem 2rem ;
-    text-align: center;
-    width: 100%;
-}
-
 
 .ilustracao1 {
-    padding: 1rem 2.5rem 0 3.5rem;
+    padding: 1em 2em 4em 1.5em;
 }
