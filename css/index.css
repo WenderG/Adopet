@@ -2,16 +2,8 @@ html {
     background: var(--azul);
 }
 
-.home {
-    padding: 2.5em 2em 2em 4em;
-}
-
-.mensagens {
-    padding: 2.5em 0 2em 1em;
-}
-
 .logoprincipal {
-    padding: 5rem 2.5rem 2.5rem 6rem;
+    padding: 5rem 2.5rem 2rem 8rem;
 }
 
 .principal {
@@ -21,7 +13,7 @@ html {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    padding: 2em 5em 1em 5em;
+    padding: 2em 5em 1em 7em;
     text-align: center;
 }
 
@@ -31,17 +23,18 @@ h1 {
     font-family: var(--fonte-boas-vindas);
     font-size: 26px;
     line-height: 48px;
+    padding-left: 2rem;
 }
 
 .botoes {
-    margin: 1rem 2.5rem 0 6rem;
+    margin: 1rem 2.5rem 0 6.5rem;
 }
 
 .login__botao {
     font-size: 16px;
     font-weight: 600px;
     margin-bottom: 1rem;
-    max-width: 200px;
+    max-width: 230px;
     padding: 1rem 2rem ;
     text-align: center;
     width: 100%;
@@ -50,7 +43,7 @@ h1 {
 .cadastro__botao {
     font-size: 16px;
     font-weight: 600px;
-    max-width: 200px;
+    max-width: 230px;
     padding: 1rem 2rem ;
     text-align: center;
     width: 100%;
