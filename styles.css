@@ -1,0 +1,25 @@
+:root {
+    --azul:#3772FF;
+    --branco: #ffffff;
+    --cinza-claro: #E5E5E5;
+    --cinza-escuro: #FF9D9E;
+    --verde-agua: #36D6AD;
+    --vermelho-claro: #FC7071;
+    --salmao: #FF9D9E;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
+    /* --preto-degrade: linear-gradient(to right, #000000 0px, transparent 10em, transparent 10em); */
+}
+
+.body {
+    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat right;
+    left: 100vh;
+}
+
+.home {
+    padding: 2.5em 2em 2em 4em;
+}
+
+.mensagens {
+    padding: 2.5em 0 2em 1em;
+}

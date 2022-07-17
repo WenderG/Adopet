@@ -7,11 +7,10 @@ html {
 }
 
 .logoprincipal {
-    padding: 5rem 0rem 2rem 2rem;
+    padding: 3rem 0rem 2rem 2rem;
 }
 
 .conteudo-principal {
-    align-items: center;
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -30,14 +29,27 @@ h1 {
     padding-left: 2rem;
 }
 
-.alinhamento {
-    padding: 2rem 0 0 1.5rem;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* width: 60vw; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-item {
+    padding: 0 0 0 2rem;
 }
 
 .botao__login {
     margin-bottom: 1rem;
 }
 
+.botao__cadastro {
+    margin-bottom: 1rem;
+}
+
 .ilustracao1 {
-    padding: 1em 2em 4em 1.5em;
+    padding-top: 1em;
 }

@@ -17,11 +17,11 @@
 }
 
 .home {
-    padding: 2.5em 2em 2em 4em;
+    padding: 2.5em 2em 2em 3em;
 }
 
 .mensagens {
-    padding: 2.5em 0 2em 1em;
+    padding: 2.5em 0 2em 2em;
 }
 
 
@@ -53,6 +53,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 1;
 }
 
 .rodape {
