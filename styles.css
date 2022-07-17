@@ -1,0 +1,72 @@
+:root {
+    --azul:#3772FF;
+    --branco: #ffffff;
+    --cinza-claro: #E5E5E5;
+    --cinza-escuro: #FF9D9E;
+    --verde-agua: #36D6AD;
+    --vermelho-claro: #FC7071;
+    --salmao: #FF9D9E;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
+}
+
+.body {
+    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left;
+    height: 140vh;
+}
+
+.home {
+    padding: 2.5em 2em 2em 3em;
+}
+
+.mensagens {
+    padding: 2.5em 0 2em 2em;
+}
+
+.botao {
+    /* estilo do botão */
+    background-color: var(--vermelho-claro);
+    border: 1px solid var(--vermelho-claro);
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: flex;
+
+    /* texto do botão */
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 11px 0 11px 7px;
+    text-decoration: none;
+
+    /* tamanho do botão */
+    height: 40px;
+    max-width: 250px;
+    width: 180px;
+}
+
+.home {
+    padding: 2.5em 2em 2em 4em;
+}
+
+.mensagens {
+    padding: 2.5em 0 2em 1em;
+}
+
+footer {
+    background-color: var(--verde-agua);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.rodape {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    padding: 2rem 0 2rem 0.5rem;
+    text-align: center;
+}
