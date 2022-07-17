@@ -8,7 +8,6 @@
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
-    /* --preto-degrade: linear-gradient(to right, #000000 0px, transparent 10em, transparent 10em); */
 }
 
 .body {
@@ -31,7 +30,6 @@
     border: 1px solid var(--vermelho-claro);
     border-radius: 6px;
     box-sizing: border-box;
-    /* box-shadow: 10px 5px 5px var(--preto-degrade); */
     display: flex;
 
     /* texto do botão */

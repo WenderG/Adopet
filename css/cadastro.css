@@ -2,6 +2,29 @@ html {
     background: var(--branco);
 }
 
+.container {
+    text-align: center;
+}
+
 .logoprincipal-azul {
-    padding: 5rem 0rem 2rem 2rem;
+    padding: 4rem 0rem 2rem 2rem;
+}
+
+.conteudo-principal {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    padding: 1em 4em 2em 5.8em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-boas-vindas);
+    font-size: 26px;
+    line-height: 48px;
+    padding-left: 2rem;
 }
