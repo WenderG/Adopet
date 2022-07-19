@@ -12,9 +12,13 @@
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
 }
 
+body {
+    max-height: 130vh;
+}
+
 .body {
-    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left, var(--branco);
-    height: 130vh;
+    background: url("./img/Patas.svg") no-repeat right top, url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left bottom, 
+    var(--branco);
 }
 
 .home {
@@ -48,11 +52,11 @@
 }
 
 .home {
-    padding: 2.5em 2em 2em 4em;
+    padding: 2.5em 2em 2em 3em;
 }
 
 .mensagens {
-    padding: 2.5em 0 2em 1em;
+    padding: 2.5em 0 2em 2em;
 }
 
 footer {
