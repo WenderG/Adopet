@@ -1,18 +1,20 @@
 :root {
     --azul:#3772FF;
     --branco: #ffffff;
-    --cinza-claro: #E5E5E5;
-    --cinza-escuro: #FF9D9E;
+    --cinza: #E5E5E5;
+    --cinza-claro: #F6F6F6;
+    --cinza-escuro: #737380;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
+    --preto: #000000;
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
 }
 
 .body {
-    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left;
-    height: 140vh;
+    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left, var(--branco);
+    height: 130vh;
 }
 
 .home {
@@ -41,8 +43,8 @@
 
     /* tamanho do botão */
     height: 40px;
-    max-width: 250px;
-    width: 180px;
+    max-width: 200px;
+    width: 140px;
 }
 
 .home {

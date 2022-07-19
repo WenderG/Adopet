@@ -9,11 +9,12 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="./css/cadastro.css">
+        <link rel=""
     </head>
     <body class="body">
         <header class="cabecalho">
             <div>
-                <a href="home.html"><img class="home" src="./img/Casa.svg" alt="Icone de Home"></a>
+                <a href="index.html"><img class="home" src="./img/Casa.svg" alt="Icone de Home"></a>
                 <a href="mensagem.html"><img class="mensagens" src="./img/Mensagens.svg" alt="Icone de Contato"></a>
             </div>
         </header>
@@ -21,8 +22,26 @@
             <div class="container">
                 <img class="logoprincipal-azul" src="./img/Logoazul.svg" alt="Logo Adopet em azul">
             </div>
-            <h1>Ainda não tem cadastro?</h1>
-            <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            <h1>Ainda não tem cadastro?</h1> 
+            <section class="conteudo-principal container">
+                <p> Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            </section>
+            <form class="flex-container">
+                <label class="flex-item" for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+
+                <label class="flex-item" for="E-mail">E-mail</label>
+                <input type="text" id="e-mail" placeholder="Digite seu e-mail" placeholder="seuemail@dominio.com" required>
+
+                <label class="flex-item" for="senha">Senha</label>
+                <input type="password" id="password" placeholder="Crie uma senha" required>
+
+                <label class="flex-item" for="senha">Confirme sua senha</label>
+                <input type="password" id="confirm-password" placeholder="Repita a senha criada a cima" required>
+            </form>
+            <div class="flex-container container">
+                <a href="#" class="botao-cadastro botao">Cadastrar</a>
+            </div>
         </main>
         <footer class="rodape">
             2022 - Desenvolvido por WenderG.

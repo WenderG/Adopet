@@ -5,6 +5,7 @@
     --cinza-escuro: #FF9D9E;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
+    --preto: #000000;
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
@@ -31,6 +32,7 @@
     border-radius: 6px;
     box-sizing: border-box;
     display: flex;
+    box-shadow: 2px 2px var(--preto);
 
     /* texto do botão */
     color: var(--branco);
