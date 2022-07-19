@@ -12,10 +12,6 @@
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
 }
 
-body {
-    max-height: 130vh;
-}
-
 .body {
     background: url("./img/Patas.svg") no-repeat right top, url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 3.svg") no-repeat left bottom, 
     var(--branco);
