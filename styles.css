@@ -6,6 +6,7 @@
     --cinza-escuro: #737380;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
+    --vermelho-escuro: #f84949;
     --preto: #000000;
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
@@ -23,28 +24,6 @@
 
 .mensagens {
     padding: 2.5em 0 2em 2em;
-}
-
-.botao {
-    /* estilo do botão */
-    background-color: var(--vermelho-claro);
-    border: 1px solid var(--vermelho-claro);
-    border-radius: 6px;
-    box-sizing: border-box;
-    display: flex;
-
-    /* texto do botão */
-    color: var(--branco);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 600px;
-    padding: 11px 0 11px 7px;
-    text-decoration: none;
-
-    /* tamanho do botão */
-    height: 40px;
-    max-width: 200px;
-    width: 140px;
 }
 
 .home {

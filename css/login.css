@@ -1,3 +1,98 @@
-html {
-    background-color: var(--branco);
+body {
+    height: 85vh;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem 0 0 1rem;
+}
+
+.logoprincipal-azul {
+    padding: 3rem 0rem 2rem 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    /* line-height: 50%; */
+    padding-left: 2rem;
+}
+
+form {
+    padding-left: 1em;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.flex-item  {
+    padding: 2em 0 0.5em 0;
+}
+
+label {
+    color: var(--cinza-escuro);
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: center;
+}
+
+input {
+    border: none;
+    background-color: var(--cinza-claro);
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 1em 1em 1em 2em;
+    text-align: center;
+    width: 80%;
+}
+
+.input {
+    margin-right: 1.5rem;
+}
+
+.esqueci-senha {
+    color: var(--vermelho-claro);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0.5rem 0 2rem 0.8rem;
+    text-decoration: underline;
+
+}
+
+.botao {
+    /* estilo do botão */
+    background-color: var(--vermelho-claro);
+    border: 1px solid var(--vermelho-claro);
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: flex;
+
+    /* texto do botão */
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 11px 0 11px 7px;
+    text-decoration: none;
+
+    /* tamanho do botão */
+    height: 40px;
+    max-width: 200px;
+    width: 130px;
+}
+
+.botao:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.botao-entrar {
+    padding-left: 2.7rem;
+    text-align: center;
 }
