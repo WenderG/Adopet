@@ -1,0 +1,6 @@
+@import url(../style.css);
+
+body {
+    background: url("../img/Forma\ 1.svg") no-repeat;
+    background-color: var(--branco);
+}
