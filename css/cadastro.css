@@ -1,3 +1,10 @@
+@import url(../style.css);
+
+body {
+    background: url('../img/Patas.svg') no-repeat top right, url('../img/Forma\ 1.svg') no-repeat, url('../img/Forma\ 3.svg') no-repeat bottom left;
+    background-color: var(--branco);
+}
+
 .container {
     text-align: center;
     padding: 1rem 0 0 1rem;

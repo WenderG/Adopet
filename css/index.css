@@ -1,5 +1,8 @@
-html {
-    background: var(--azul);
+@import url(../style.css);
+
+body {
+    background: url("../img/Forma\ 1.svg") no-repeat, url("../img/Forma\ 2.svg") no-repeat right;
+    background-color: var(--azul);
 }
 
 .container {

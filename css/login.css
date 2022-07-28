@@ -1,5 +1,9 @@
+@import url(../style.css);
+
 body {
-    height: 85vh;
+    background: url('../img/Patas.svg') no-repeat top right, url('../img/Forma\ 1.svg') no-repeat, url('../img/Forma\ 3.svg') no-repeat bottom left;
+    background-color: var(--branco);
+    height: 86vh;
 }
 
 .container {
@@ -33,7 +37,7 @@ form {
 }
 
 .flex-item  {
-    padding: 2em 0 0.5em 0;
+    padding: 1em 0 0.5em 0;
 }
 
 label {

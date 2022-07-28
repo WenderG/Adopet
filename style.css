@@ -2,17 +2,13 @@
     --azul:#3772FF;
     --branco: #ffffff;
     --cinza-claro: #E5E5E5;
-    --cinza-escuro: #FF9D9E;
+    --cinza-escuro: #737380;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
     --preto: #000000;
     --salmao: #FF9D9E;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
-}
-
-.body {
-    background: url("./img/Forma\ 1.svg") no-repeat, url("./img/Forma\ 2.svg") no-repeat right;
 }
 
 .home {
