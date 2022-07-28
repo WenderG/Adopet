@@ -2,6 +2,7 @@
     --azul:#3772FF;
     --branco: #ffffff;
     --cinza-claro: #E5E5E5;
+    --cinza-claro__fundo: #F6F6F6;
     --cinza-escuro: #737380;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
@@ -39,14 +40,6 @@
     height: 40px;
     max-width: 250px;
     width: 180px;
-}
-
-footer {
-    background-color: var(--verde-agua);
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
 }
 
 .rodape {

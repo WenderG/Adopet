@@ -102,3 +102,11 @@ input {
     padding-left: 2rem;
     text-align: center;
 }
+
+footer {
+    background-color: var(--verde-agua);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}

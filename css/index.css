@@ -56,3 +56,11 @@ h1 {
 .ilustracao1 {
     padding-bottom: 2rem;
 }
+
+footer {
+    background-color: var(--verde-agua);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}

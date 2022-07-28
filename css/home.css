@@ -4,3 +4,36 @@ body {
     background: url("../img/Forma\ 1.svg") no-repeat;
     background-color: var(--branco);
 }
+
+.perfil {
+    padding: 0 0 1.4em 7.7em;
+}
+
+p {
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4em 4em 0 5em;
+    text-align: center;
+}
+
+.flex-container {
+    padding: 3em 0em 1em 1em ;
+}
+
+.flex-item {
+    padding-bottom: 1em;
+}
+
+.caixa {
+    background-color: var(--cinza-claro__fundo);
+}
+
+footer {
+    background-color: var(--verde-agua);
+    width: 100%;
+    position: static;
+    bottom: 0;
+    z-index: 1;
+}
