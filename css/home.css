@@ -23,11 +23,12 @@ p {
 }
 
 .flex-item {
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
 }
 
 .caixa {
     background-color: var(--cinza-claro__fundo);
+    /* padding: 1em 1em 1em 1em; */
 }
 
 footer {
