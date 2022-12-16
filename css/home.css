@@ -9,26 +9,64 @@ body {
     padding: 0 0 1.4em 7.7em;
 }
 
+.titulo {
+    margin-left: 2em;
+    padding: 7rem 4rem 2rem 4rem;
+}
+
 p {
     color: var(--azul);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
-    padding: 4em 4em 0 5em;
     text-align: center;
 }
 
-.flex-container {
-    padding: 3em 0em 1em 1em ;
-}
-
-.flex-item {
-    /* padding-bottom: 1em; */
-}
-
 .caixa {
+    padding: 0 0 1rem 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.painel {
     background-color: var(--cinza-claro__fundo);
-    /* padding: 1em 1em 1em 1em; */
+    padding: 1em 1em 1em 1em;
+}
+
+.texto_titulo {
+    color: var(--azul);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.texto {
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    padding-left: 0.5em;
+}
+
+.texto_corpo {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 2em;
+}
+
+.texto_footer {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.responsavel{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    font-size: 10px;
+    line-height: 20px;
+    padding-top: 0.8em;
 }
 
 footer {
