@@ -1,19 +1,15 @@
 @import url(../style.css);
-
 body {
     background: url('../img/Patas.svg') no-repeat top right, url('../img/Forma\ 1.svg') no-repeat, url('../img/Forma\ 3.svg') no-repeat bottom left;
     background-color: var(--branco);
 }
-
 .container {
     text-align: center;
     padding: 1rem 0 0 1rem;
 }
-
 .logoprincipal-azul {
     padding: 3rem 0rem 2rem 1rem;
 }
-
 h1 {
     text-align: center;
     color: var(--azul);
@@ -22,7 +18,6 @@ h1 {
     line-height: 21px;
     padding-left: 2rem;
 }
-
 .conteudo-principal {
     color: var(--azul);
     font-family: var(--fonte-principal);
@@ -34,11 +29,9 @@ h1 {
     text-indent: 15px;
     vertical-align: center;
 }
-
 form {
     padding-left: 1em;
 }
-
 .flex-container {
     align-items: center;
     display: flex;
@@ -46,18 +39,15 @@ form {
     flex-wrap: wrap;
     margin: auto;
 }
-
 .flex-item  {
     padding: 0.6em 0 0.5em 0;
 }
-
 label {
     color: var(--cinza-escuro);
     font-size: 24px;
     line-height: 24px;
     vertical-align: center;
 }
-
 input {
     border: none;
     background-color: var(--cinza-claro);
@@ -67,11 +57,9 @@ input {
     text-align: center;
     width: 80%;
 }
-
 /* .input {
     margin-right: 2rem;
 } */
-
 .botao {
     /* estilo do botão */
     background-color: var(--vermelho-claro);
@@ -79,7 +67,6 @@ input {
     border-radius: 6px;
     box-sizing: border-box;
     display: flex;
-
     /* texto do botão */
     color: var(--branco);
     font-family: var(--fonte-principal);
@@ -87,17 +74,14 @@ input {
     font-weight: 600px;
     padding: 11px 0 11px 7px;
     text-decoration: none;
-
     /* tamanho do botão */
     height: 40px;
     max-width: 200px;
     width: 140px;
 }
-
 .botao:hover {
     background-color: var(--vermelho-escuro);
 }
-
 .botao-cadastro {
     padding-left: 2rem;
     text-align: center;
