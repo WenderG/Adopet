@@ -1,20 +1,27 @@
-html {
-    background: var(--azul);
+@import url(../style.css);
+
+body {
+    background: url("../img/Forma\ 1.svg") no-repeat, url("../img/Forma\ 2.svg") no-repeat right;
+    background-color: var(--azul);
+}
+
+.container {
+    text-align: center;
 }
 
 .logoprincipal {
-    padding: 5rem 2.5rem 2rem 8rem;
+    padding: 4rem 0rem 2rem 2rem;
 }
 
-.principal {
-    align-items: center;
+.conteudo-principal {
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    padding: 2em 5em 1em 7em;
+    padding: 1em 4em 2em 5.8em;
     text-align: center;
+    text-indent: 15px;
 }
 
 h1 {
@@ -26,30 +33,34 @@ h1 {
     padding-left: 2rem;
 }
 
-.botoes {
-    margin: 1rem 2.5rem 0 6.5rem;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.login__botao {
-    font-size: 16px;
-    font-weight: 600px;
+.flex-item {
+    padding: 0 0 0 2rem;
+}
+
+.botao__login {
     margin-bottom: 1rem;
-    max-width: 230px;
-    padding: 1rem 2rem ;
-    text-align: center;
-    width: 100%;
 }
 
-.cadastro__botao {
-    font-size: 16px;
-    font-weight: 600px;
-    max-width: 230px;
-    padding: 1rem 2rem ;
-    text-align: center;
-    width: 100%;
+.botao__cadastro {
+    margin-bottom: 1rem;
 }
-
 
 .ilustracao1 {
-    padding: 1rem 2.5rem 0 3.5rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: var(--verde-agua);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
 }
