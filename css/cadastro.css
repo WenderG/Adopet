@@ -1,6 +1,7 @@
 @import url(../style.css);
+
 body {
-    background: url('../img/Patas.svg') no-repeat top right, url('../img/Forma\ 1.svg') no-repeat, url('../img/Forma\ 3.svg') no-repeat bottom left;
+    background: url('../img/media360/Patas.svg') no-repeat top right, url('../img/media360/Forma\ 1.svg') no-repeat, url('../img/media360/Forma\ 3.svg') no-repeat bottom left;
     background-color: var(--branco);
 }
 .container {

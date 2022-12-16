@@ -1,8 +1,12 @@
 @import url(../style.css);
 
 body {
-    background: url("../img/Forma\ 1.svg") no-repeat, url("../img/Forma\ 2.svg") no-repeat right;
+    background: url("../img/media360/Forma\ 1.svg") no-repeat, url("../img/media360/Forma\ 2.svg") no-repeat right;
     background-color: var(--azul);
+}
+
+.logo_cabecalho {
+    width: 0%;
 }
 
 .container {
@@ -10,7 +14,7 @@ body {
 }
 
 .logoprincipal {
-    padding: 4rem 0rem 2rem 2rem;
+    padding: 3.5rem 0rem 2rem 2rem;
 }
 
 .conteudo-principal {
@@ -19,7 +23,7 @@ body {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    padding: 1em 4em 2em 5.8em;
+    padding: 1em 4em 1em 5.8em;
     text-align: center;
     text-indent: 15px;
 }
@@ -54,7 +58,7 @@ h1 {
 }
 
 .ilustracao1 {
-    padding-bottom: 2rem;
+    padding-bottom: 3.5rem;
 }
 
 footer {
@@ -64,3 +68,53 @@ footer {
     bottom: 0;
     z-index: 1;
 }
+
+@media screen and (min-width: 768px){
+    body {
+        background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;
+        background-color: var(--azul);
+    }
+
+    .logoprincipal {
+        padding: 8rem 0rem 0 2rem;
+        height: 90px;
+    }
+
+    .conteudo-principal {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .ilustracao1 {
+        padding-top: 2rem;
+        height: 450px;
+    }
+}
+
+@media (min-width: 772px){
+    .logoprincipal {
+        padding: 0 0 2rem 2rem;
+    }
+
+    .conteudo-principal {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .ilustracao1 {
+        padding-top: 3rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .logoprincipal {
+        padding: 0 0 2rem 2rem;
+    }
+
+    .conteudo-principal {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .ilustracao1 {
+        padding-top: 3rem;
+    }
+}
+
