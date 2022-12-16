@@ -2,4 +2,6 @@
 
 >Status do projeto: Em desenvolvimento.
 
->Fase de mobile - visualização em 360x917
+>Mobile - visualização em 360x917
+>Tablet - visualização em 768x1200
+>Desktop - visualização em 1440x1024
