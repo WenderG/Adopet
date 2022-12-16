@@ -1,4 +1,4 @@
-@import url(../style.css);
+@import url(../styles.css);
 
 body {
     background: url('../img/media360/Patas.svg') no-repeat top right, url('../img/media360/Forma\ 1.svg') no-repeat, url('../img/media360/Forma\ 3.svg') no-repeat bottom left;
@@ -61,28 +61,7 @@ input {
 /* .input {
     margin-right: 2rem;
 } */
-.botao {
-    /* estilo do botão */
-    background-color: var(--vermelho-claro);
-    border: 1px solid var(--vermelho-claro);
-    border-radius: 6px;
-    box-sizing: border-box;
-    display: flex;
-    /* texto do botão */
-    color: var(--branco);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 600px;
-    padding: 11px 0 11px 7px;
-    text-decoration: none;
-    /* tamanho do botão */
-    height: 40px;
-    max-width: 200px;
-    width: 140px;
-}
-.botao:hover {
-    background-color: var(--vermelho-escuro);
-}
+
 .botao-cadastro {
     padding-left: 2rem;
     text-align: center;

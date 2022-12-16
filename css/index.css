@@ -1,12 +1,8 @@
-@import url(../style.css);
+@import url(../styles.css);
 
 body {
     background: url("../img/media360/Forma\ 1.svg") no-repeat, url("../img/media360/Forma\ 2.svg") no-repeat right;
     background-color: var(--azul);
-}
-
-.logo_cabecalho {
-    width: 0%;
 }
 
 .container {
@@ -14,7 +10,7 @@ body {
 }
 
 .logoprincipal {
-    padding: 3.5rem 0rem 2rem 2rem;
+    padding: 4.6rem 0rem 2rem 2rem;
 }
 
 .conteudo-principal {
@@ -76,45 +72,60 @@ footer {
     }
 
     .logoprincipal {
-        padding: 8rem 0rem 0 2rem;
-        height: 90px;
+        padding: 6rem 0rem 0 2rem;
+        height: 70px;
     }
 
     .conteudo-principal {
-        padding: 1rem 0 1rem 0;
+        padding: 1rem 0 0 0;
     }
 
     .ilustracao1 {
-        padding-top: 2rem;
+        padding-top: 0rem;
         height: 450px;
     }
-}
-
-@media (min-width: 772px){
-    .logoprincipal {
-        padding: 0 0 2rem 2rem;
-    }
 
     .conteudo-principal {
-        padding: 1rem 0 4rem 0;
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 24px;
+        font-style: normal;
+        line-height: 24px;
+        padding: 0 4em 1em 5.8em;
+        text-align: center;
+        text-indent: 15px;
     }
-
-    .ilustracao1 {
-        padding-top: 3rem;
+    
+    h1 {
+        text-align: center;
+        color: var(--branco);
+        font-family: var(--fonte-boas-vindas);
+        font-size: 32px;
+        line-height: 96px;
+        padding-left: 4rem;
     }
+    
 }
 
 @media (min-width: 1440px){
+    .logo_cabecalho {
+        width: 150px;
+        padding: 4em 0 1.6em 8em;
+    }
+
     .logoprincipal {
-        padding: 0 0 2rem 2rem;
+        padding: 0rem 0rem 0 2rem;
+        height: 70px;
     }
 
     .conteudo-principal {
-        padding: 1rem 0 4rem 0;
+        padding-bottom: 2rem;
     }
 
     .ilustracao1 {
-        padding-top: 3rem;
+        padding-bottom: 1rem;
+        height: 450px;
     }
+    
 }
 

@@ -2,26 +2,20 @@
     --azul:#3772FF;
     --branco: #ffffff;
     --cinza-claro: #E5E5E5;
-    --cinza-escuro: #FF9D9E;
+    --cinza-claro__fundo: #F6F6F6;
+    --cinza-escuro: #737380;
     --verde-agua: #36D6AD;
     --vermelho-claro: #FC7071;
+    --preto: #000000;
     --salmao: #FF9D9E;
+
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
-}
-
-.home {
-    padding: 2.5em 2em 2em 3em;
-}
-
-.mensagens {
-    padding: 2.5em 0 2em 2em;
 }
 
 .botao {
     /* estilo do botão */
     background-color: var(--vermelho-claro);
-    border: 1px solid var(--vermelho-claro);
     border-radius: 6px;
     box-sizing: border-box;
     display: flex;
@@ -40,20 +34,27 @@
     width: 180px;
 }
 
+.botao:hover {
+    background-color: var(--salmao);
+}
+
+.logo_cabecalho {
+    width: 0%;
+}
+
 .home {
-    padding: 2.5em 2em 2em 4em;
+    padding: 2.5em 2em 2em 3em;
 }
 
 .mensagens {
-    padding: 2.5em 0 2em 1em;
+    padding: 2.5em 0 2em 2em;
 }
 
 footer {
     background-color: var(--verde-agua);
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    z-index: 1;
 }
 
 .rodape {
@@ -67,44 +68,90 @@ footer {
 }
 
 @media screen and (width: 768px){
+    .logo_cabecalho {
+        width: 150px;
+        padding: 4em 0 1.6em 2em;
+    }
+
     .home {
-        padding: 0em 0em 2em 0em;
-        height: 100%;
+        padding: 4em 2em 2em 4em;
+        width: 30px;
     }
     
     .mensagens {
-        padding: 2.5em 0 2em 2em;
+        padding: 4em 0 2em 3em;
+        width: 38px;
+    }
+
+    .botao {
+        /* estilo do botão */
+        border-radius: 14px;
+
+        /* texto do botão */
+        font-size: 24px;
+        font-weight: 1200px;
+        padding: 24px 0px 0px 60px;
+        text-decoration: none;
+    
+        /* tamanho do botão */
+        height: 70px;
+        max-width: 500px;
+        width: 360px;
+    }
+
+    .rodape {
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 24px;
+        font-style: normal;
+        line-height: 48px;
+        padding: 3rem 0 3rem 1rem;
+        text-align: center;
     }
     
+}
+
+@media (min-width: 1440px){
+    .cabecalho {
+        padding-top: 2rem;
+    }
+
+    .logo_cabecalho {
+        width: 150px;
+        padding: 4em 1em 1.6em 0em;
+    }
+
+    .home {
+        padding: 4em 2em 2em 3em;
+        width: 28px;
+    }
+    
+    .mensagens {
+        padding: 4em 0 2em 0em;
+        width: 34px;
+    }
+
     .botao {
         /* estilo do botão */
         background-color: var(--vermelho-claro);
-        border: 1px solid var(--vermelho-claro);
-        border-radius: 6px;
+        border: 2px solid var(--vermelho-escuro);
+        border-radius: 12px;
         box-sizing: border-box;
         display: flex;
     
         /* texto do botão */
         color: var(--branco);
         font-family: var(--fonte-principal);
-        font-size: 16px;
-        font-weight: 600px;
-        padding: 11px 0 11px 7px;
+        font-size: 24px;
+        font-weight: 1200px;
+        padding: 24px 0px 0px 60px;
         text-decoration: none;
     
         /* tamanho do botão */
-        height: 40px;
-        max-width: 250px;
-        width: 180px;
+        height: 70px;
+        max-width: 500px;
+        width: 360px;
     }
-    
-    .home {
-        padding: 2.5em 2em 2em 4em;
-    }
-    
-    .mensagens {
-        padding: 2.5em 0 2em 1em;
-    }
-    
+
 }
 
