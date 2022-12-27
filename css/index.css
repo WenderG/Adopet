@@ -13,17 +13,6 @@ body {
     padding: 4.6rem 0rem 2rem 2rem;
 }
 
-.conteudo-principal {
-    color: var(--branco);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-style: normal;
-    line-height: 24px;
-    padding: 1em 4em 1em 5.8em;
-    text-align: center;
-    text-indent: 15px;
-}
-
 h1 {
     text-align: center;
     color: var(--branco);
@@ -31,6 +20,17 @@ h1 {
     font-size: 26px;
     line-height: 48px;
     padding-left: 2rem;
+}
+
+.conteudo-principal {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    padding: 1em 4em 1em 5.8em;
+    text-align: justify;
+    text-indent: 15px;
 }
 
 .flex-container {
@@ -72,7 +72,7 @@ footer {
     }
 
     .logoprincipal {
-        padding: 6rem 0rem 0 2rem;
+        padding: 6rem 0 0 3rem;
         height: 70px;
     }
 
@@ -108,11 +108,6 @@ footer {
 }
 
 @media (min-width: 1440px){
-    .logo_cabecalho {
-        width: 150px;
-        padding: 4em 0 1.6em 8em;
-    }
-
     .logoprincipal {
         padding: 0rem 0rem 0 2rem;
         height: 70px;
@@ -128,4 +123,3 @@ footer {
     }
     
 }
-

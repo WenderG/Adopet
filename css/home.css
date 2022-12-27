@@ -26,7 +26,7 @@ p {
     padding: 0 0 1rem 1rem;
 }
 
-.grid{
+.grid_painel{
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -75,4 +75,102 @@ footer {
     position: static;
     bottom: 0;
     z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat;
+    }
+
+    .perfil {
+        padding: 0 0 1.4em 17em;
+        width: 55px;
+    }
+
+    .titulo {
+        margin-left: 2em;
+        padding: 7rem 4rem 2rem 4rem;
+    }
+    
+    p {
+        color: var(--azul);
+        font-family: var(--fonte-principal);
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    .catalogo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .caixa {
+        padding: 0 0 1rem 1rem;
+    }
+     
+    .painel {
+        background-color: var(--cinza-claro__fundo);
+        padding: 1em 0em 1em 1em;
+    }
+    
+    .texto_titulo {
+        color: var(--azul);
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+    }
+    
+    .texto {
+        color: var(--cinza-escuro);
+        font-family: var(--fonte-principal);
+        padding-left: 0.5em;
+    }
+    
+    .texto_corpo {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 2em;
+    }
+    
+    .texto_footer {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .responsavel{
+        display: grid;
+        grid-template-columns: 15% 85%;
+        font-size: 11px;
+        line-height: 20px;
+        padding-top: 0.8em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;;
+    }
+
+    .perfil {
+        padding: 0 0 1.4em 55em;
+        width: 55px;
+    }
+    
+    .catalogo {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        margin-left: 7rem;
+        width: 80%;
+    }
+
+    .caixa {
+        padding: 0 0 1rem 1rem;
+    }
+
+    .painel {
+        background-color: var(--cinza-claro__fundo);
+        padding: 1em 0em 1em 1em;
+    }
 }

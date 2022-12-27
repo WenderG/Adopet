@@ -50,13 +50,6 @@
     padding: 2.5em 0 2em 2em;
 }
 
-footer {
-    background-color: var(--verde-agua);
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
 .rodape {
     color: var(--branco);
     font-family: var(--fonte-principal);
@@ -72,6 +65,7 @@ footer {
         width: 150px;
         padding: 4em 0 1.6em 2em;
     }
+
 
     .home {
         padding: 4em 2em 2em 4em;
@@ -118,16 +112,16 @@ footer {
 
     .logo_cabecalho {
         width: 150px;
-        padding: 4em 1em 1.6em 0em;
+        padding: 4em 1em 1.6em 4em;
     }
 
     .home {
-        padding: 4em 2em 2em 3em;
+        padding: 4em 0em 2em 3em;
         width: 28px;
     }
     
     .mensagens {
-        padding: 4em 0 2em 0em;
+        padding: 4em 0 2em 3em;
         width: 34px;
     }
 
