@@ -165,12 +165,4 @@ footer {
         width: 80%;
     }
 
-    .caixa {
-        padding: 0 0 1rem 1rem;
-    }
-
-    .painel {
-        background-color: var(--cinza-claro__fundo);
-        padding: 1em 0em 1em 1em;
-    }
 }
