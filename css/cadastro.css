@@ -44,11 +44,11 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 1rem;
 }
 
 .flex-item  {
-    padding: 0.6em 0 0.5em 0;
+    padding: 1em 0.5em 0.5em 0;
 }
 
 label {
@@ -72,16 +72,14 @@ input {
     padding-left: 3.3rem;
 }
 
-.botao-posicionamento {
-    padding: 2rem 5rem 3rem 6rem;
+.espacamento {
+    padding: 1em 0 2em 0;
 }
 
 footer {
     background-color: var(--verde-agua);
     width: 100%;
     position: static;
-    bottom: 0;
-    z-index: 1;
 }
 
 @media screen and (min-width: 768px){
@@ -133,8 +131,7 @@ footer {
     footer {
         position: static;
     }
-    
-    
+     
 }
 
 @media (min-width: 1440px){
@@ -155,8 +152,8 @@ footer {
     }
 
     .botao-posicionamento {
-        padding-left: 38rem;
-        padding-bottom: 3.5rem;
+        padding-right: 16rem;
+        padding-bottom: 3rem;
     } 
 }
 
