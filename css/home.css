@@ -150,7 +150,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
     body {
-        background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;;
+        background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;
     }
 
     .perfil {
