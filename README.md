@@ -1,6 +1,6 @@
 <h1>Adopet</h1>
 
->Status do projeto: Em desenvolvimento.
+>Status do projeto: Finalizado.
 
 >Mobile - visualização em 360x917
 
