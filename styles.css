@@ -107,12 +107,12 @@
 
 @media (min-width: 1440px){
     .cabecalho {
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
 
     .logo_cabecalho {
         width: 150px;
-        padding: 4em 1em 1.6em 4em;
+        padding: 0em 1em 1.6em 4em;
     }
 
     .home {

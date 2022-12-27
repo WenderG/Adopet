@@ -4,13 +4,16 @@ body {
     background: url('../img/media360/Patas.svg') no-repeat top right, url('../img/media360/Forma\ 1.svg') no-repeat, url('../img/media360/Forma\ 3.svg') no-repeat bottom left;
     background-color: var(--branco);
 }
+
 .container {
     text-align: center;
     padding: 1rem 0 0 1rem;
 }
+
 .logoprincipal-azul {
     padding: 3rem 0rem 2rem 1rem;
 }
+
 h1 {
     text-align: center;
     color: var(--azul);
@@ -19,6 +22,7 @@ h1 {
     line-height: 21px;
     padding-left: 2rem;
 }
+
 .conteudo-principal {
     color: var(--azul);
     font-family: var(--fonte-principal);
@@ -30,9 +34,11 @@ h1 {
     text-indent: 15px;
     vertical-align: center;
 }
+
 form {
     padding-left: 1em;
 }
+
 .flex-container {
     align-items: center;
     display: flex;
@@ -40,15 +46,18 @@ form {
     flex-wrap: wrap;
     margin: auto;
 }
+
 .flex-item  {
     padding: 0.6em 0 0.5em 0;
 }
+
 label {
     color: var(--cinza-escuro);
     font-size: 24px;
     line-height: 24px;
     vertical-align: center;
 }
+
 input {
     border: none;
     background-color: var(--cinza-claro);
@@ -58,19 +67,96 @@ input {
     text-align: center;
     width: 80%;
 }
-/* .input {
-    margin-right: 2rem;
-} */
 
 .botao-cadastro {
-    padding-left: 2rem;
-    text-align: center;
+    padding-left: 3.3rem;
+}
+
+.botao-posicionamento {
+    padding: 2rem 5rem 3rem 6rem;
 }
 
 footer {
     background-color: var(--verde-agua);
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0;
     z-index: 1;
 }
+
+@media screen and (min-width: 768px){
+    body {
+        background: url('../img/media768/Patas.svg') no-repeat top right, url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;
+
+    }
+
+    .botao {
+        /* texto do botão */
+        padding: 24px 0px 0px 60px;
+    
+        /* tamanho do botão */
+        height: 70px;
+        max-width: 235px;
+        width: 360px;
+    }
+
+    .logoprincipal-azul {
+        padding-top: 5rem;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 21px;
+        padding: 0rem 2rem 1rem 4rem;
+    }
+
+    .conteudo-principal {
+        font-size: 22px;
+        padding: 1rem 8rem 1rem 10rem;
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+        width: 50%;
+    }
+    
+    .botao-posicionamento {
+        padding-left: 17rem;
+        padding-bottom: 6.4rem;
+    }   
+
+    footer {
+        position: static;
+    }
+    
+    
+}
+
+@media (min-width: 1440px){
+
+    .botao {
+        /* texto do botão */
+        padding: 24px 0px 0px 55px;
+    }
+
+    .logoprincipal-azul {
+        padding-top: 1rem;
+        height: 70px;
+    }
+
+    .conteudo-principal {
+        padding: 1rem 8rem 1rem 20rem;
+        text-indent: 20px;
+    }
+
+    .botao-posicionamento {
+        padding-left: 38rem;
+        padding-bottom: 3.5rem;
+    } 
+}
+
