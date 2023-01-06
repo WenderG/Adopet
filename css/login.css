@@ -1,7 +1,5 @@
-@import url(../styles.css);
-
 body {
-    background: url('../img/media360/Patas.svg') no-repeat top right, url('../img/media360/Forma\ 1.svg') no-repeat, url('../img/media360/Forma\ 3.svg') no-repeat bottom left;
+    background: url('../img/media360/Patas.svg') no-repeat top right, url('../img/media360/Forma\ 1.svg') no-repeat;
     background-color: var(--branco);
     height: 86vh;
 }
@@ -12,20 +10,21 @@ body {
 }
 
 .logoprincipal-azul {
-    padding: 3rem 0rem 2rem 1rem;
+    width: 52%;
+    max-width: 220px;
+    padding: 7rem 0 1rem 0;
 }
 
 h1 {
-    text-align: center;
     color: var(--azul);
     font-family: var(--fonte-principal);
-    font-size: 18px;
-    /* line-height: 50%; */
-    padding-left: 2rem;
+    font-size: 26px;
+    padding: 1rem 0 2rem 0;
+    text-align: center;
 }
 
-form {
-    padding-left: 1em;
+.alinhamento {
+    margin-top: 3rem;
 }
 
 .flex-container {
@@ -38,6 +37,10 @@ form {
 
 .flex-item  {
     padding: 1em 0.5em 0.5em 0;
+}
+
+form {
+    padding-left: 1em;
 }
 
 label {
@@ -67,60 +70,53 @@ input {
     line-height: 24px;
     padding: 0.5rem 0 2rem 0.8rem;
     text-decoration: underline;
-
 }
 
-.botao {
-    /* estilo do botão */
-    border-radius: 17px;
-
-    /* texto do botão */
-    font-size: 21px;
-    padding: 20px 0px 40px 60px;
-
-    /* tamanho do botão */
-    height: 20px;
-    max-width: 120px;
-    width: 320px;
-}
-
-.botao-entrar {
-    padding-left: 1.8rem;
+.botoes {
+    padding: 1.9rem 0 3rem 0;
     text-align: center;
 }
 
-footer {
-    background-color: var(--verde-agua);
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
+button {
+    /* estilo do botão */
+    background-color: var(--vermelho-claro);
+    border-radius: 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--salmao);
+}
+
+.entrar {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600px;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px){
     body {
         background: url('../img/media768/Patas.svg') no-repeat top right, url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat, url("../img/media768/Forma\ 2.svg") no-repeat right;
-
     }
 
     .logoprincipal-azul {
-        padding-top: 5rem;
-        height: 70px;
+        padding: 8rem 0 1rem 0;
     }
 
     h1 {
-        font-size: 24px;
-        line-height: 21px;
-        padding: 0rem 2rem 1rem 4rem;
+        font-size: 26px;
     }
 
     label {
-        font-size: 30px;
+        font-size: 22px;
         line-height: 24px;
     }
 
     input {
-        font-size: 24px;
+        font-size: 16px;
         padding: 1em 0em 1em 0em;
         text-align: center;
         width: 50%;
@@ -131,31 +127,20 @@ footer {
     }
     
     .esqueci-senha {
-        font-size: 22px;
+        font-size: 18px;
     }
-    
-    .botao {
-        /* texto do botão */
-        font-size: 28px;
-        padding: 18px 0px 40px 60px;
-    
-        /* tamanho do botão */
-        height: 0px;
-        max-width: 200px;
-        width: 320px;
-    }
-    
-    .botao-entrar {
-        padding-left: 4rem;
-        text-align: center;
-    }
-    
-    
-}
 
-@media (min-width: 1440px){
-    .botao-entrar {
-        padding-left: 3.8rem;
-        text-align: center;
+    .caixa_botoes {
+        padding-bottom: 12rem;
     }
+
+    button {
+        /* estilo do botão */
+        border-radius: 16px;
+    }
+
+    .entrar {
+        font-size: 18px;
+    } 
+    
 }

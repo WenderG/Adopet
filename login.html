@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Adopet</title> 
-        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="./css/reset.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body class="body">
         <header class="cabecalho">
@@ -17,24 +18,27 @@
                 <a href="#"><img class="mensagens" src="./img/media360/Mensagens.svg" alt="Icone de Contato"></a>
             </div>
         </header>
-        <main class="principal">
+        <main>
             <div class="container">
                 <img class="logoprincipal-azul" src="./img/media360/Logoazul.svg" alt="Logo Adopet em azul">
             </div>
-            <h1>Já tem conta? Faça seu login:</h1> 
+            <h1>Já tem conta? Faça seu login:</h1>
+            <section class="alinhamento">
+                <form class="flex-container">
+                    <label class="flex-item" for="E-mail">E-mail</label>
+                    <input class="input" type="text" id="e-mail" placeholder="Insira seu e-mail" placeholder="seuemail@dominio.com" required>
+                    <label class="flex-item" for="senha">Senha</label>
+                    <input class="input" type="password" id="password" placeholder="Insira sua senha" required>
+                </form>
+                <div class="flex-container">
+                    <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+                </div>
             </section>
-            <form class="flex-container">
-                <label class="flex-item" for="E-mail">E-mail</label>
-                <input class="input" type="text" id="e-mail" placeholder="Insira seu e-mail" placeholder="seuemail@dominio.com" required>
-                <label class="flex-item" for="senha">Senha</label>
-                <input class="input" type="password" id="password" placeholder="Insira sua senha" required>
-            </form>
-            <div class="flex-container">
-                <a href="#" class="esqueci-senha">Esqueci minha senha</a>
-            </div>
-            <div class="flex-container">
-                <a href="#" class="botao-entrar botao">Entrar</a>
-            </div>
+            <section class="caixa_botoes">
+                <div class="botoes">
+                    <button><a href="#" class="entrar">Entrar</a></button>
+                </div>
+            </section> 
         </main>
         <footer class="rodape">
             2022 - Desenvolvido por @WenderG.

@@ -1,5 +1,3 @@
-@import url(../styles.css);
-
 body {
     background: url("../img/media360/Forma\ 1.svg") no-repeat;
     background-color: var(--branco);
@@ -10,8 +8,8 @@ body {
 }
 
 .titulo {
-    margin-left: 2em;
-    padding: 7rem 4rem 2rem 4rem;
+    padding-top: 20rem;
+    text-align: center;
 }
 
 p {
@@ -22,8 +20,12 @@ p {
     text-align: center;
 }
 
+.catalogo {
+    margin: 2%;
+}
+
 .caixa {
-    padding: 0 0 1rem 1rem;
+    padding-bottom: 1rem;
 }
 
 .grid_painel{
@@ -33,6 +35,7 @@ p {
 
 .painel {
     background-color: var(--cinza-claro__fundo);
+    max-width: 330.25px;
     padding: 1em 1em 1em 1em;
 }
 
@@ -69,21 +72,12 @@ p {
     padding-top: 0.8em;
 }
 
-footer {
-    background-color: var(--verde-agua);
-    width: 100%;
-    position: static;
-    bottom: 0;
-    z-index: 1;
-}
-
 @media screen and (min-width: 768px) {
     body {
         background: url("../img/media768/backgmaior1.svg") no-repeat, url("../img/media768/backgmaior2.svg") no-repeat;
     }
 
     .perfil {
-        padding: 0 0 1.4em 17em;
         width: 55px;
     }
 
@@ -154,7 +148,7 @@ footer {
     }
 
     .perfil {
-        padding: 0 0 1.4em 55em;
+        text-align: right;
         width: 55px;
     }
     

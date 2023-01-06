@@ -1,0 +1,74 @@
+:root {
+    --azul:#3772FF;
+    --branco: #ffffff;
+    --cinza-claro: #E5E5E5;
+    --cinza-claro__fundo: #F6F6F6;
+    --cinza-escuro: #737380;
+    --verde-agua: #36D6AD;
+    --vermelho-claro: #FC7071;
+    --preto: #000000;
+    --salmao: #FF9D9E;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-boas-vindas: 'IBM Plex Sans', sans-serif;
+}
+
+.logo_cabecalho {
+    width: 0%;
+}
+
+.home {
+    padding: 2.5em 2em 2em 3em;
+}
+
+.mensagens {
+    padding: 2.5em 0 2em 2em;
+}
+
+footer {
+    background-color: var(--verde-agua);
+    position: static;
+    padding: 2rem 0 2rem 0rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.rodape {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .logo_cabecalho {
+        width: 150px;
+        max-width: 200px;
+        padding: 4em 0 1.6em 2em;
+    }
+
+
+    .home {
+        padding: 4em 2em 2em 4em;
+        width: 24px;
+    }
+    
+    .mensagens {
+        padding: 4em 0 2em 2em;
+        width: 28px;
+    }
+
+    .rodape {
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 24px;
+        font-style: normal;
+        line-height: 48px;
+        padding: 3rem 0 3rem 1rem;
+        text-align: center;
+    }
+    
+}
+
